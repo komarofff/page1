@@ -1,0 +1,110 @@
+/* HEADER */
+.header {
+	position: relative;
+	box-sizing: border-box;
+	color: var(--header-textColor);
+	width: var(--big-size);
+	max-width: 100%;
+	height: 962px;
+	position: relative;
+	background: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url("../../images/banner.jpg");
+	background-position: top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.header__logo {
+	margin-left: 10px;
+}
+.header__topmenu {
+	position: relative;
+	/* padding-top: 60px; */
+	/* padding-bottom: 140px; */
+	min-height: 31px;
+}
+.header__links-list {
+	color: var(--header-textColor);
+}
+.header__topmenu-links {
+	color: var(--header-textColor);
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: 400;
+	padding: 0 41px;
+}
+.header__topmenu-links:hover {
+	color: var(--link-color);
+	transition: 0.3s;
+}
+.header__info {
+	box-sizing: border-box;
+}
+.header__info-h1 {
+	width: 619px;
+	max-width: 100%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: var(--tittleBigsize);
+	line-height: 1.2em;
+	padding: 10px;
+}
+.header__info-p {
+	max-width: 546px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.8em;
+	color: var(--header-textColor);
+	padding: 10px 10px 30px 10px;
+}
+.header__search {
+	position: relative;
+	top: -200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.header__search-link {
+	margin-top: 20px;
+	cursor: pointer;
+	max-width: 297px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: var(--main-color);
+	padding: 0 0 25px 0px;
+	border-bottom: 3px solid var(--header-textColor);
+}
+.header__search-link:hover {
+	border-bottom: 3px solid var(--link-color);
+	transition: 0.3s;
+}
+.header__search-img {
+	padding-right: 23px;
+}
+.header__search-button {
+	cursor: pointer;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	line-height: 1em;
+	color: var(--main-color);
+	background: var(--link-color);
+	width: 171px;
+	height: 58px;
+	border: 1px solid var(--link-color);
+	margin-top: 20px;
+}
+.header__search-button:hover {
+	background: var(--header-textColor);
+	color: var(--link-color);
+	transition: 0.3s;
+}

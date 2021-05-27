@@ -1,0 +1,12 @@
+/* MAIN */
+.main {
+  background: var(--main-color);
+  position: relative;
+}
+.main__line{
+  position: absolute;
+  margin-top: 7px;
+  width: 253px;
+  height: 3px;
+  background: var(--link-color);
+}
